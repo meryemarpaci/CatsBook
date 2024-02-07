@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBB2E3"
+    tools:context=".DetailsActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-19dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="206dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="88dp"
+        android:onClick="selectImg"
+        app:layout_constraintBottom_toTopOf="@+id/catName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/select" />
+
+    <EditText
+        android:id="@+id/catName"
+        android:layout_width="253dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Cat Name / Title"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHighlight="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/catWhen"
+        android:layout_width="248dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="When did you see this cat?"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHighlight="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background="#7961A5"
+        android:onClick="saveBtnClick"
+        android:text="SAVE"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/catWhen" />
+</androidx.constraintlayout.widget.ConstraintLayout>
