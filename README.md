@@ -8,4 +8,5 @@ Upload images of cats you see to this app and create your own cat list. You can 
 
 # App icon :
 
-![catsbooklogo](https://github.com/meryemarpaci/CatsBook/assets/51757833/dbaee60b-1608-4d48-a566-b285c5c9a0dc)
+
+![Screenshot_20240208_233555_One UI Home](https://github.com/meryemarpaci/CatsBook/assets/51757833/6fb55f2e-594b-4a09-b386-2fe7b6ad710e)
