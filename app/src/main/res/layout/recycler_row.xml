@@ -6,14 +6,16 @@
     android:layout_height="wrap_content">
 
     <TextView
-        android:layout_width="match_parent"
         android:id="@+id/recyclerVieww"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="2dp"
+
+        android:background="#CB8E7A91"
+        android:gravity="center|start"
         android:text="Test"
-        android:textSize="20sp"
-        android:layout_margin="5dp"
         android:textColor="@color/black"
-        >
+        android:textSize="25sp">
 
     </TextView>
 

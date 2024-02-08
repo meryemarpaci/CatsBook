@@ -2,21 +2,18 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#BBB2E3"
     android:layout_width="match_parent"
-
     android:layout_height="match_parent"
+
+    android:background="#BBB2E3"
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
-        style="@style/Animation.Design.BottomSheetDialog"
-        android:layout_width="390dp"
-        android:layout_height="574dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="10dp"
+        android:layout_width="373dp"
+        android:layout_height="565dp"
 
+        android:layout_marginTop="50dp"
         android:background="#D2C1E4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,10 +24,11 @@
         android:id="@+id/textView"
         android:layout_width="197dp"
         android:layout_height="48dp"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="24dp"
+        android:gravity="center|start"
         android:text="My Cats "
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/recyclerView"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,13 +36,16 @@
 
     <Button
         android:id="@+id/adCatButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:background="#6D7CCD"
+        android:layout_width="100dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="50dp"
+        android:background="#CB8E7A91"
         android:onClick="addCatClick"
         android:text="Add Cat"
-        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView" />
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
