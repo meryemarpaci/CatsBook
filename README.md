@@ -1,3 +1,5 @@
+Upload images of cats you see to this app and create your own cat list. You can download and use the CatsBook from releases section.
+
 # App İmages :
 
 ![3](https://github.com/meryemarpaci/CatsBook/assets/51757833/5d7d0ff4-7d92-4a14-9451-701cbc753c55)
